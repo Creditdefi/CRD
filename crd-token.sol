@@ -116,7 +116,7 @@ contract ERC20Token is StandardToken {
         ) {
         balances[msg.sender] = 200000000; // Give the creator all initial tokens (100000 for example)
         totalSupply = 200000000;          // Update total supply (100000 for example)
-        name = "Credit Defi";             // Set the name for display purposes
+        name = "CreditDefi";             // Set the name for display purposes
         decimals = 18;                                 // Amount of decimals for display purposes
         symbol = "CRD";                               // Set the symbol for display purposes
     }
